@@ -16,10 +16,7 @@ You could figure our for example that:
 * 4.5% of Job Offers on LinkedIn come from the Finance & Insurance sector
 * ... and much more
 
-<div style="background-color: #f0f0f0; display: inline-block; padding: 0.5rem;">
-    <img src="img/example-charts.jpeg" alt="Description of image">
-    <p style="font-size: 0.8rem; text-align: center; margin-top: 0.5rem;">Example analysis results</p>
-</div>
+![example-charts.jpeg](img/example-charts.jpeg)
 
 When you have this information you can focus your energies on the right platform 
 (maybe on Stepstone there are more job offers for your desired role),
@@ -44,10 +41,9 @@ Follow these easy steps.
    * Click the **Load unpacked** button and select the extension directory *
 6. The extension is now installed
 
-<div style="background-color: #f0f0f0; display: inline-block; padding: 0.5rem;">
-    <img src="img/install-steps.png" alt="Description of image">
-    <p style="font-size: 0.8rem; text-align: center; margin-top: 0.5rem;">How to enable and load unpacked extensions</p>
-</div>
+| ![Description of image](img/install-steps.png) |
+|:----------------------------------------------:|
+|  _How to enable and load unpacked extensions_  |
 
 **\* Please Note**: the extension directory is the one that contains the **manifest.json** file.
 
@@ -61,17 +57,27 @@ Recommended folders:
 ### Prerequisites
 The first thing to do once installed the extension is to set the API Key.
 
-To do that, right-click on the extension icon (or open the extensions' menu and then click on the three dots), and then click Options.
+To do that, first pin the extension, then right-click on the extension icon, and then click Options.\
+(Alternative: or open the extensions' menu, click on the three dots, click Options)
 
-![pin-it.png](img/pin-it.png)
+| ![pin-it.png](img/pin-it.png) |
+|:-----------------------------:|
+|      _Pin the extension_      |
 
-![open-options-2.png](img/open-options-2.png)
+| ![open-options-2.png](img/open-options-2.png) |
+|:---------------------------------------------:|
+|     _Right click on the icon -> Options_      |
 
-![open-options-1.png](img/open-options-1.png)
+|     ![open-options-1.png](img/open-options-1.png)     |
+|:-----------------------------------------------------:|
+| _(Alternative) Open options from the extensions list_ |
 
-Enter your API Key and click Save. A success message should appear.
+Once opened the Options page, enter your API Key and click Save.\
+A success message should appear.
 
-![options-page.png](img/options-page.png)
+| ![options-page.png](img/options-page.png) |
+|:-----------------------------------------:|
+|            _The options page_             |
 
 Now you are ready to use the extension.
 
@@ -81,13 +87,16 @@ Open the page with your browser, **right-click** on the page, hover over the **J
 1. Analyze job
 2. Analyze and save job
 
-![context-menu-items.png](img/context-menu-items.png)
+|   ![context-menu-items.png](img/context-menu-items.png)   |
+|:---------------------------------------------------------:|
+| _Right click on the page to see the Job Analysis actions_ |
 
 **Analyze job** will perform the analysis for the current job posting page and show the results table.
 
-![analysis-result-1.png](img/analysis-result-1.png)
-
-![analysis-result-2.png](img/analysis-result-2.png)
+|  ![analysis-result-1.png](img/analysis-result-1.png)  |
+|:-----------------------------------------------------:|
+|  ![analysis-result-2.png](img/analysis-result-2.png)  |
+|               _Analysis result example_               |
 
 You can choose to save the results in the current project (called "default" if you haven't configured it yet. More details later.)
 
@@ -100,7 +109,9 @@ From here you can manage all the aspects of the plugin (except for the api key).
 To open the main control panel click on the plugin icon.
 A new panel should open on the right side of your screen.
 
-![open-panel.png](img/open-panel.png)
+| ![open-panel.png](img/open-panel.png) |
+|:-------------------------------------:|
+|     _The main panel once opened_      |
 
 From this panel you can:
 * **Configure the "Current project"**. It acts as a folder for your data, you can create multiple projects.
