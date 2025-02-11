@@ -1,9 +1,35 @@
-# Job Analysis Chrome Extension
-This Chrome Extension is meant to:
-- Help you analyze the Job Market 
-- Simplify the job searching process
+**Table of contents**
+* [Installation](#installation)
+* [Usage](#usage)
+  * [Prerequisites](#prerequisites)
+  * [Job offer analysis](#job-offer-analysis)
+  * [The main panel](#the-main-panel)
 
-You can gain insight into the Job Market and find the perfect position for you much more easily.
+# Why Job Analysis Chrome Extension
+This Chrome Extension is meant to:
+* Help you analyze the Job Market 
+* Simplify the job searching process
+
+You could figure our for example that:
+* Berlin offers more full-remote jobs than Munich
+* 24% of Job offers on Upwork are for Website and CMS developers
+* 4.5% of Job Offers on LinkedIn come from the Finance & Insurance sector
+* ... and much more
+
+<div style="background-color: #f0f0f0; display: inline-block; padding: 0.5rem;">
+    <img src="img/example-charts.jpeg" alt="Description of image">
+    <p style="font-size: 0.8rem; text-align: center; margin-top: 0.5rem;">Example analysis results</p>
+</div>
+
+When you have this information you can focus your energies on the right platform 
+(maybe on Stepstone there are more job offers for your desired role),
+refine your research filters, and refine your CV to target your ideal clients 
+(Berliner Startup in the Finance sector? SMB part-time DevOps engineer? SAP consultant for corporates in the Manufacturing field?)
+
+When you have chosen your target client, refined you CV, found the best Job Platforms, and refined your filters,
+this extension will help you track down and identify the best offers for you. *
+
+\* 🚧 This feature is under construction.
 
 ## Installation
 Follow these easy steps.
@@ -18,7 +44,10 @@ Follow these easy steps.
    * Click the **Load unpacked** button and select the extension directory *
 6. The extension is now installed
 
-![install-steps.png](img/install-steps.png)
+<div style="background-color: #f0f0f0; display: inline-block; padding: 0.5rem;">
+    <img src="img/install-steps.png" alt="Description of image">
+    <p style="font-size: 0.8rem; text-align: center; margin-top: 0.5rem;">How to enable and load unpacked extensions</p>
+</div>
 
 **\* Please Note**: the extension directory is the one that contains the **manifest.json** file.
 
@@ -33,6 +62,7 @@ Recommended folders:
 The first thing to do once installed the extension is to set the API Key.
 
 To do that, right-click on the extension icon (or open the extensions' menu and then click on the three dots), and then click Options.
+
 ![pin-it.png](img/pin-it.png)
 
 ![open-options-2.png](img/open-options-2.png)
@@ -45,7 +75,7 @@ Enter your API Key and click Save. A success message should appear.
 
 Now you are ready to use the extension.
 
-### job posting analysis
+### Job offer analysis
 The first thing you can do is to analyze a job posting page.\
 Open the page with your browser, **right-click** on the page, hover over the **Job Analysis** menu item and then select one of:
 1. Analyze job
