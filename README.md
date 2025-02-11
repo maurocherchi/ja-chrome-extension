@@ -9,22 +9,27 @@
 
 This Chrome Extension is meant to:
 
-* Help you analyze the job market
-* Simplify the job searching process
+* 📊 Help you analyze the job market
+* 🍰 Simplify the job searching process
 
 You could find out, for example, that:
 
-* Berlin offers more full-remote jobs than Munich
-* 24% of job offers on Upwork are for website and CMS developers
-* 4.5% of job offers on LinkedIn come from the finance & insurance sector
+* 🌍 Berlin offers more full-remote jobs than Munich
+* 📈 24% of job offers on Upwork are for website and CMS developers
+* 💼 4.5% of job offers on LinkedIn come from the finance & insurance sector
 * ... and much more
 
 ![example-charts.jpeg](img/example-charts.jpeg)
 
-When you have this information, you can focus your energies on the right platform 
-(maybe on Stepstone there are more job offers for your desired role), refine your search filters, 
-and tailor your CV to target your ideal clients 
-(Berliner startup in the finance sector? SMB part-time DevOps engineer? SAP consultant for corporates in the manufacturing field?). 
+When you have this information, you can focus your energies on the right platform!\
+Maybe on Stepstone there are more job offers for your desired role?
+
+Then refine your search filters 🔍 and tailor your CV 📝 to target your ideal clients.\
+🎯 Berliner startup in the finance sector?\
+🕒 SMB part-time DevOps engineer?\
+🏢 SAP consultant for corporates in the manufacturing field?\
+You name it!
+
 Once you have chosen your target client, refined your CV, found the best job platforms, 
 and adjusted your filters, this extension will help you track down and identify the best offers for you.
 
@@ -34,15 +39,15 @@ and adjusted your filters, this extension will help you track down and identify 
 
 Follow these easy steps:
 
-1. Download the zip file.
-2. Move it to a folder where you can keep the extracted files (see recommended folders below).
-3. Extract the zip inside the dedicated new folder.
-4. Open your Chrome browser.
+1. 📥 Download the zip file.
+2. 📂 Move it to a folder where you can keep the extracted files (see recommended folders below).
+3. 🗂 Extract the zip inside the dedicated new folder.
+4. 🌐 Open your Chrome browser.
 5. Follow [Load an unpacked extension instructions](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked):
     * Navigate to **chrome://extensions**
     * Enable Developer Mode by clicking the toggle switch next to **Developer mode**
     * Click the **Load unpacked** button and select the extension directory *
-6. The extension is now installed.
+6. 🎉 The extension is now installed.
 
 **\* Please Note**: the extension directory is the one that contains the **manifest.json** file.
 
@@ -52,9 +57,9 @@ Follow these easy steps:
 
 Recommended folders:
 
-* **Linux:** `/home/your-username/Documents/ja-chrome-extension`
-* **Windows:** `C:\Users\YourUsername\Documents\ja-chrome-extension`
-* **macOS:** `/Users/YourUsername/Documents/ja-chrome-extension`
+* 🐧 **Linux:** `/home/your-username/Documents/ja-chrome-extension`
+* 💻 **Windows:** `C:\Users\YourUsername\Documents\ja-chrome-extension`
+* 🍏 **macOS:** `/Users/YourUsername/Documents/ja-chrome-extension`
 
 ## Usage
 
@@ -62,7 +67,7 @@ Recommended folders:
 
 The first thing to do once the extension is installed is to set the API Key. 
 
-To do that, first pin the extension, then right-click on the extension icon and click Options.\
+To do that, first pin the extension 📍, then right-click on the extension icon and click Options.\
 (Alternative: open the extensions menu, click on the three dots, and select Options)
 
 | ![pin-it.png](img/pin-it.png) |
@@ -84,15 +89,15 @@ A success message should appear.
 |:-----------------------------------------:|
 |            _The options page_             |
 
-Now you are ready to use the extension.
+Now you are ready to use the extension 🚀.
 
 ### Job Offer Analysis
 
 The first thing you can do is analyze a job posting page.  
 Open the page with your browser, **right-click** on the page, hover over the **Job Analysis** menu item, and then select one of the following options:
 
-1. Analyze job
-2. Analyze and save job
+1. 🧐 Analyze job
+2. 💾 Analyze and save job
 
 |   ![context-menu-items.png](img/context-menu-items.png)   |
 |:---------------------------------------------------------:|
