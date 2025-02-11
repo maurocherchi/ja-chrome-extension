@@ -19,21 +19,21 @@ You could find out, for example, that:
 * 💼 4.5% of job offers on LinkedIn come from the finance & insurance sector
 * ... and much more
 
-![example-charts.jpeg](img/example-charts.jpeg)
-
 When you have this information, you can focus your energies on the right platform!\
 Maybe on Stepstone there are more job offers for your desired role?
 
-Then refine your search filters 🔍 and tailor your CV 📝 to target your ideal clients.\
+![example-charts.jpeg](img/example-charts.jpeg)
+
+Once you know better the market, you can refine your search filters 🔍 and tailor your CV 📝 to target your ideal clients.\
 🎯 Berliner startup in the finance sector?\
 🕒 SMB part-time DevOps engineer?\
 🏢 SAP consultant for corporates in the manufacturing field?\
 You name it!
 
 Once you have chosen your target client, refined your CV, found the best job platforms, 
-and adjusted your filters, this extension will help you track down and identify the best offers for you.
+and adjusted your filters, this extension will help you track down and identify the best offers for you. *
 
-* \* 🚧 This feature is under construction.
+\* 🚧 This feature is under construction.
 
 ## Installation
 
