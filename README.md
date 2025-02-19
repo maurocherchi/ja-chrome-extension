@@ -39,17 +39,20 @@ and adjusted your filters, this extension will help you track down and identify 
 
 Follow these easy steps:
 
-1. 📥 Download the zip file.
-2. 📂 Move it to a folder where you can keep the extracted files (see recommended folders below).
-3. 🗂 Extract the zip inside the dedicated new folder.
-4. 🌐 Open your Chrome browser.
-5. Follow [Load an unpacked extension instructions](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked):
-    * Navigate to **chrome://extensions**
-    * Enable Developer Mode by clicking the toggle switch next to **Developer mode**
-    * Click the **Load unpacked** button and select the extension directory *
-6. 🎉 The extension is now installed.
+1. 📂 Create a new folder on your computer where to install the extension 
+(you can create it wherever you want, but if you are not sure, find the recommended folders a little down).
+2. 📥 Download the zip file inside the newly created folder.
+![zip-download.png](img/zip-download.png) ![zip-download-2.png](img/zip-download-2.png)
+3. 🗜️ Extract the zip inside the dedicated new folder (double left click or right click and "extract here").
+4. ✅ A new folder with the same name as the Zip should appear.
+5. 🔨 Change the name of the folder to "ja-chrome-extension". (this will make updating the extension easier)
+6. 🌐 Open your Chrome browser. 
+7. Navigate to **[chrome://extensions](chrome://extensions)**
+8. Enable Developer Mode by clicking the toggle switch next to **Developer mode**
+9. Click the **Load unpacked** button and select the "ja-chrome-extension" directory
+10. 🎉 The extension is now installed.
 
-**\* Please Note**: the extension directory is the one that contains the **manifest.json** file.
+If you need more details check the official Chrome guide: [Load an unpacked extension instructions](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked).
 
 | ![Description of image](img/install-steps.png) |
 |:----------------------------------------------:|
@@ -60,6 +63,10 @@ Recommended folders:
 * 🐧 **Linux:** `/home/your-username/Documents/ja-chrome-extension`
 * 💻 **Windows:** `C:\Users\YourUsername\Documents\ja-chrome-extension`
 * 🍏 **macOS:** `/Users/YourUsername/Documents/ja-chrome-extension`
+
+## Update
+
+## Uninstall
 
 ## Usage
 
@@ -94,10 +101,15 @@ Now you are ready to use the extension 🚀.
 ### Job Offer Analysis
 
 The first thing you can do is analyze a job posting page.  
-Open the page with your browser, **right-click** on the page, hover over the **Job Analysis** menu item, and then select one of the following options:
+1. Open the page with your browser (* see note below)
+2. **Right-click** on the page 
+3. Hover over the **Job Analysis** menu item
+4. And then select one of the following options:
+   * 🧐 Analyze job 
+   * 💾 Analyze and save job
 
-1. 🧐 Analyze job
-2. 💾 Analyze and save job
+\* Note: Fully open a job posting page, do not run the analysis on pages that contain multiple job previews e.g. linkedin.com/jobs/collections/#####. 
+The right page in this case would be linkedin.com/jobs/view/#####.
 
 |   ![context-menu-items.png](img/context-menu-items.png)   |
 |:---------------------------------------------------------:|
