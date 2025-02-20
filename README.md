@@ -203,7 +203,7 @@ the segment of the job market you are interested in.
 Activate the link grabber and navigate through the result pages. No need to click on the links, just scroll through the result pages and open one page after the other.
 The "Links grabbed" counter on the panel shows how many links to job offers have been collected (grabbed) from the page.
 
-<video src="https://github.com/maurocherchi/ja-chrome-extension/blob/main/img/job-analysis-link-grabber.mp4"></video>
+<video src="https://github.com/maurocherchi/ja-chrome-extension/blob/main/img/job-analysis-link-grabber.mp4" width="352" height="720"></video>
 
 \* _This feature is available only on certain websites, but the list of supported websites is growing._
  
