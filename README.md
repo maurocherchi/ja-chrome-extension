@@ -203,7 +203,7 @@ the segment of the job market you are interested in.
 Activate the link grabber and navigate through the result pages. No need to click on the links, just scroll through the result pages and open one page after the other.
 The "Links grabbed" counter on the panel shows how many links to job offers have been collected (grabbed) from the page.
 
-https://github.com/maurocherchi/ja-chrome-extension/blob/main/img/job-analysis-link-grabber.mp4)
+<video src="https://github.com/maurocherchi/ja-chrome-extension/blob/main/img/job-analysis-link-grabber.mp4"></video>
 
 \* _This feature is available only on certain websites, but the list of supported websites is growing._
  
@@ -214,7 +214,7 @@ The job of the scraper is to extract all the job related data from the pages beh
 
 New browser tabs will be open, one for each link, one at the time.
 
-https://github.com/maurocherchi/ja-chrome-extension/blob/main/img/job-analysis-link-scraper.mp4)
+https://github.com/maurocherchi/ja-chrome-extension/blob/main/img/job-analysis-link-scraper.mp4
 
 **Note**: During this process you won't be able to use the browser.
 
@@ -225,6 +225,6 @@ Once the content of the job posting pages has been saved, you can start the Anal
 The analyzer will run in background, and you can see the number of Analyzed jobs growing.\
 You can use your browser normally while the analyzer is running.
 
-https://github.com/maurocherchi/ja-chrome-extension/blob/main/img/job-analysis-job-analyzer.mp4)
+https://github.com/maurocherchi/ja-chrome-extension/blob/main/img/job-analysis-job-analyzer.mp4
 
 You can decide to download at any moment the current list of analyzed jobs clicking the "Download jobs CSV" button.
