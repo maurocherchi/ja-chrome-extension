@@ -92,6 +92,7 @@ The extension can be used to:
 * [Save the job offer analysis](#save-analysis-results)
 * [Download all results as CSV](#download-results-csv)
 * [Organize your saved offers into projects](#configure-the-current-project)
+* [Analyze the job market](#the-market-analysis)
 
 ### Prerequisites
 
@@ -171,7 +172,7 @@ To open the main control panel, click on the plugin icon. A new panel should ope
 At the bottom of the panel you can find the "Download CSV" button.\
 This button will create a CSV file that contains all analysis results saved for the currently selected project.\
 
-[job-analysis-download-csv.mp4](img/job-analysis-download-csv.mp4)
+https://github.com/maurocherchi/ja-chrome-extension/blob/main/img/job-analysis-download-csv.mp4
 
 From here you can also delete all saved job analysis for the current project.
 
@@ -202,7 +203,7 @@ the segment of the job market you are interested in.
 Activate the link grabber and navigate through the result pages. No need to click on the links, just scroll through the result pages and open one page after the other.
 The "Links grabbed" counter on the panel shows how many links to job offers have been collected (grabbed) from the page.
 
-[job-analysis-link-grabber.mp4](img/job-analysis-link-grabber.mp4)
+https://github.com/maurocherchi/ja-chrome-extension/blob/main/img/job-analysis-link-grabber.mp4)
 
 \* _This feature is available only on certain websites, but the list of supported websites is growing._
  
@@ -213,7 +214,7 @@ The job of the scraper is to extract all the job related data from the pages beh
 
 New browser tabs will be open, one for each link, one at the time.
 
-[job-analysis-link-scraper.mp4](img/job-analysis-link-scraper.mp4)
+https://github.com/maurocherchi/ja-chrome-extension/blob/main/img/job-analysis-link-scraper.mp4)
 
 **Note**: During this process you won't be able to use the browser.
 
@@ -224,6 +225,6 @@ Once the content of the job posting pages has been saved, you can start the Anal
 The analyzer will run in background, and you can see the number of Analyzed jobs growing.\
 You can use your browser normally while the analyzer is running.
 
-[job-analysis-job-analyzer.mp4](img/job-analysis-job-analyzer.mp4)
+https://github.com/maurocherchi/ja-chrome-extension/blob/main/img/job-analysis-job-analyzer.mp4)
 
 You can decide to download at any moment the current list of analyzed jobs clicking the "Download jobs CSV" button.
