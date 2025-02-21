@@ -1,9 +1,13 @@
 **Table of contents**
+* [Overview](#why-job-analysis-chrome-extension)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Prerequisites](#prerequisites)
-* [Job offer analysis](#job-offer-analysis)
-* [The main panel](#the-main-panel)
+  * [Prerequisites](#prerequisites)
+  * [Analyze a job offer](#job-offer-analysis)
+  * [Save the job offer analysis result](#save-analysis-results)
+  * [Download results](#download-results-csv)
+  * [Organize your saved offers into projects](#configure-the-current-project)
+  * [Analyze the job market](#the-market-analysis)
 * [Known problems](#known-problems)
 
 
@@ -48,7 +52,10 @@ and adjusted your filters, this extension will help you track down and identify 
 \* 🚧 This feature is under construction.
 
 
-## Installation
+## Manage extension
+
+
+### Installation
 
 
 Follow these easy steps:
@@ -84,7 +91,7 @@ Recommended folders:
 * 🍏 **macOS:** `/Users/YourUsername/Documents/chrome-extensions`
 
 
-## Install a newer version
+### Install a newer version
 
 Assuming you have installed the extension following the instructions, you should have a "ja-chrome-extension" folder inside a "chrome-extensions" folder.\
 Possibly `.../Documents/chrome-extension/ja-chrome-extension`.
@@ -105,7 +112,7 @@ To update the extension:
 | _How to update the extensions_ |
 
 
-## Uninstall
+### Uninstall
 
 
 When you uninstall the extension, all data connected to it will be lost. Make sure to download everything you need before removing the extension.
