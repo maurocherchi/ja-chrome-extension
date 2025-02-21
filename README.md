@@ -4,6 +4,7 @@
 * [Prerequisites](#prerequisites)
 * [Job offer analysis](#job-offer-analysis)
 * [The main panel](#the-main-panel)
+* [Known problems](#known-problems)
 
 
 # Why Job Analysis Chrome Extension
@@ -317,3 +318,20 @@ You can use your browser normally while the analyzer is running.
 
 You can decide to download at any moment the current list of analyzed jobs by clicking the "Download jobs CSV" button.
 
+
+## Known problems
+
+
+### Prevent dialogs
+
+If you check the "Prevent this page from creating additional dialogs", the button that opens that dialog will stop working.\
+These buttons are:
+* Clear grabbed links
+* Activate link scraper
+* Delete Jobs
+
+Please do not check the "Prevent this page from creating additional dialogs" checkbox.
+
+| ![prevent-dialogs.png](img/prevent-dialogs.png) |
+|:-----------------------------------------------:|
+|          _Do not check this checkbox_           |
