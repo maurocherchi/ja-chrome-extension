@@ -331,7 +331,7 @@ These buttons are:
 * Activate link scraper
 * Delete Jobs
 
-⚠️ Please do not check the "Prevent this page from creating additional dialogs" checkbox.
+⚠️ Please **do not check** the "Prevent this page from creating additional dialogs" checkbox.
 
 | ![prevent-dialogs.png](img/prevent-dialogs.png) |
 |:-----------------------------------------------:|
