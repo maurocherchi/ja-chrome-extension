@@ -345,6 +345,8 @@ These buttons are:
 
 ⚠️ Please **do not check** the "Prevent this page from creating additional dialogs" checkbox.
 
+If you accidentally check the box, close and reopen the panel. The buttons should start working again.
+
 | ![prevent-dialogs.png](img/prevent-dialogs.png) |
 |:-----------------------------------------------:|
 |          _Do not check this checkbox_           |
