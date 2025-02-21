@@ -83,8 +83,7 @@ Recommended folders:
 * 🍏 **macOS:** `/Users/YourUsername/Documents/chrome-extensions`
 
 
-## Update
-
+## Install a newer version
 
 Assuming you have installed the extension following the instructions, you should have a "ja-chrome-extension" folder inside a "chrome-extensions" folder.\
 Possibly `.../Documents/chrome-extension/ja-chrome-extension`.
@@ -98,6 +97,11 @@ To update the extension:
 5. 🔨 Change the name of the folder to "ja-chrome-extension". (this will make updating the extension easier)
 6. Open the chrome://extensions
 7. Click on the rounded arrow in the extension card (the tooltip "reload" should appear when you hover over the arrow)
+
+
+| ![update.png](img/update.png)  |
+|:------------------------------:|
+| _How to update the extensions_ |
 
 
 ## Uninstall
@@ -115,7 +119,7 @@ When you uninstall the extension, all data connected to it will be lost. Make su
 
 The extension can be used to:
 * [Analyze single job offers](#job-offer-analysis)
-* [Save the job offer analysis](#save-analysis-results)
+* [Save the job offer analysis results](#save-analysis-results)
 * [Download all results as CSV](#download-results-csv)
 * [Organize your saved offers into projects](#configure-the-current-project)
 * [Analyze the job market](#the-market-analysis)
