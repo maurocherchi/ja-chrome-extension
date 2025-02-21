@@ -261,6 +261,11 @@ Or maybe you are evaluating a change of career or just a little deviation from w
 Using the next three features, you can almost effortlessly gain a good understanding and a lot of insights into the job market segment that you are interested in.
 
 
+| ![market-analysis-steps.png](img/market-analysis-steps.png) |
+|:-----------------------------------------------------------:|
+|                 _Grab -> Scrape -> Analyze_                 |
+
+
 #### Step 1: Link Grabber
 
 
