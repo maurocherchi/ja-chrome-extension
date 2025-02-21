@@ -172,7 +172,7 @@ To open the main control panel, click on the plugin icon. A new panel should ope
 At the bottom of the panel you can find the "Download CSV" button.\
 This button will create a CSV file that contains all analysis results saved for the currently selected project.\
 
-https://youtu.be/HO6nchJdxqg
+[![Download CSV](https://img.youtube.com/vi/HO6nchJdxqg/0.jpg)](https://youtu.be/HO6nchJdxqg)
 
 From here you can also delete all saved job analysis for the current project.
 
