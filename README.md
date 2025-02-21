@@ -324,13 +324,14 @@ You can decide to download at any moment the current list of analyzed jobs by cl
 
 ### Prevent dialogs
 
-If you check the "Prevent this page from creating additional dialogs", the button that opens that dialog will stop working.\
+If you check the "Prevent this page from creating additional dialogs", the button that opens that dialog will stop working.
+
 These buttons are:
 * Clear grabbed links
 * Activate link scraper
 * Delete Jobs
 
-Please do not check the "Prevent this page from creating additional dialogs" checkbox.
+⚠️ Please do not check the "Prevent this page from creating additional dialogs" checkbox.
 
 | ![prevent-dialogs.png](img/prevent-dialogs.png) |
 |:-----------------------------------------------:|
