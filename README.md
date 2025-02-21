@@ -172,7 +172,7 @@ To open the main control panel, click on the plugin icon. A new panel should ope
 At the bottom of the panel you can find the "Download CSV" button.\
 This button will create a CSV file that contains all analysis results saved for the currently selected project.\
 
-https://github.com/maurocherchi/ja-chrome-extension/blob/main/img/job-analysis-download-csv.mp4
+https://github.com/user-attachments/assets/01ba4c33-4374-471f-b6e7-5edc1d28197e
 
 From here you can also delete all saved job analysis for the current project.
 
