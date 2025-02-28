@@ -46,10 +46,7 @@ You name it!
 
 
 Once you have chosen your target client, refined your CV, found the best job platforms,
-and adjusted your filters, this extension will help you track down and identify the best offers for you. *
-
-
-\* 🚧 This feature is under construction.
+and adjusted your filters, this extension will help you track down and identify the best offers for you. 
 
 
 ## Manage extension
@@ -131,6 +128,9 @@ The extension can be used to:
 * [Download all results as CSV](#download-results-csv)
 * [Organize your saved offers into projects](#configure-the-current-project)
 * [Analyze the job market](#the-market-analysis)
+* [Create your professional profile](#analyze-profile)
+* [Define your job screening rules](#screener-settings)
+* [Calculate the job offer score](#the-match-analysis)
 
 
 ### Prerequisites
@@ -139,27 +139,23 @@ The extension can be used to:
 The first thing to do once the extension is installed is to set the API Key.
 
 
-To do that, first pin the extension 📍, then right-click on the extension icon and click Options.\
-(Alternative: open the extensions menu, click on the three dots, and select Options)
+To do that, first pin the extension 📍
 
 
 | ![pin-it.png](img/pin-it.png) |
 |:-----------------------------:|
 |      _Pin the extension_      |
 
-
-| ![open-options-2.png](img/open-options-2.png) |
-|:---------------------------------------------:|
-|     _Right click on the icon -> Options_      |
+Then click the extension icon and open one of the available panels.
 
 
-|     ![open-options-1.png](img/open-options-1.png)     |
-|:-----------------------------------------------------:|
-| _(Alternative) Open options from the extensions list_ |
+|        ![popup.png](img/popup.png)        |
+|:-----------------------------------------:|
+| ![panel-no-key.png](img/panel-no-key.png) |
+|              _Open a panel_               |
 
 
-Once the Options page is open, enter your API Key and click Save.\
-A success message should appear.
+Once the Options page is open, enter your API Key and click Save.
 
 
 | ![options-page.png](img/options-page.png) |
@@ -167,28 +163,32 @@ A success message should appear.
 |            _The options page_             |
 
 
+A success message should appear and the side panel should update.
 Now you are ready to use the extension 🚀.
 
+
+## The analysis panel
+
+You can use the job analysis panel to:
+* analyze single job offers and decide which one to save
+* perform a job market analysis
 
 ### Job Offer Analysis
 
 
 The first thing you can do is analyze a job posting page.
-1. Open the page with your browser (* see note below)
-2. **Right-click** on the page
-3. Hover over the **Job Analysis** menu item
-4. And then select one of the following options:
-* 🧐 Analyze job
-* 💾 Analyze and save job
+1. Browse to a job posting page (* see note below)
+2. Open the analysis panel
+3. Click "Analyze offer"
 
 
 \* ✅ **Note**: Fully open a job posting page; do not run the analysis on pages that contain multiple job previews, e.g. linkedin.com/jobs/collections/#####.
 The right page where to run the analysis for LinkedIn is: linkedin.com/jobs/view/#####.
 
 
-|   ![context-menu-items.png](img/context-menu-items.png)   |
-|:---------------------------------------------------------:|
-| _Right-click on the page to see the Job Analysis actions_ |
+| ![analysis-panel-analyze.png](img/analysis-panel-analyze.png) |
+|:-------------------------------------------------------------:|
+|                    _Analyze offer button_                     |
 
 
 **Analyze job** will perform the analysis for the current job posting page and display the results table.
@@ -214,26 +214,17 @@ Find more details on how to configure the project below.
 **Analyze and save job** will perform the same operation and automatically save the result.
 
 
-### The Main Panel
+
+### Download results CSV
 
 
-The main panel is the most important part of the extension.
-From here, you can manage all aspects of the plugin (except for the API key).
+At the bottom of the panel, you can find the "Download CSV" button.
 
+| ![analysis-panel-download-csv.png](img/analysis-panel-download-csv.png) |
+|:-----------------------------------------------------------------------:|
+|                             _Download CSV_                              |
 
-To open the main control panel, click on the plugin icon. A new panel should open on the right side of your screen.
-
-
-| ![open-panel.png](img/open-panel.png) |
-|:-------------------------------------:|
-|     _The main panel once opened_      |
-
-
-#### Download results CSV
-
-
-At the bottom of the panel, you can find the "Download CSV" button.\
-This button will create a CSV file that contains all analysis results saved for the currently selected project.\
+This button will create a CSV file that contains all analysis results saved for the currently selected project.
 
 
 | [![Download CSV](https://img.youtube.com/vi/HO6nchJdxqg/0.jpg)](https://youtu.be/HO6nchJdxqg) |
@@ -244,12 +235,15 @@ This button will create a CSV file that contains all analysis results saved for 
 From here, you can also delete all saved job analyses for the current project.
 
 
-#### Configure the "Current Project"
+### Configure the "Current Project"
 
 
 At the top of the panel, you can see the currently selected Project.\
 If you haven't changed it yet, it shows the name: default
 
+| ![analysis-panel-project.png](img/analysis-panel-project.png) |
+|:-------------------------------------------------------------:|
+|                _Current Project configuration_                |
 
 The project acts as a folder for your data. You can create multiple projects to organize your saved jobs however you like.
 For example, by city, by role, by skill... you choose.
@@ -330,6 +324,67 @@ You can use your browser normally while the analyzer is running.
 
 You can decide to download at any moment the current list of analyzed jobs by clicking the "Download jobs CSV" button.
 
+
+## The screening panel
+
+This panel is meant to help you figure out quickly how well your professional profile matches with job offers.
+
+| ![screening-panel-0.png](img/screening-panel-0.png) |
+|:---------------------------------------------------:|
+|                _The screening panel_                |
+
+From this panel you can run a match analysis and manage your profile and screener settings.
+
+### Analyze profile
+
+Before being able to run the match analysis that will tell you how good you fit a specific job offer, 
+you need to configure your professional profile.
+
+There are 2 ways of doing it:
+* The automatic one: run the "Analyze profile" operation (your profile data is collected from LinkedIn, sent to OpenAI, analyzed, and then saved on your Browser storage)
+* Manually: open the "Manage profile" page and add/change/remove information regarding your professional profile
+
+**IMPORTANT NOTE**: Your data is stored only in your browser, we do not store any personal information. 
+The data extracted from your LinkedIn profile is sent to OpenAI LLM APIs only when you run the "analyze profile" or the "match analysis" operation.\
+**If you don't want your data to be sent to OpenAI, do not use the screening panel operations.**
+
+#### Automatic profile analysis
+
+To run this operation you need to open you LinkedIn profile and click "Analyze profile button".
+
+**Note**: Do not use your browser during this operation, it should last a few seconds.
+New tabs will be opened and closed automatically in your browser.
+
+| ![screening-panel-settings-area.png](img/screening-panel-settings-area.png) |
+|:---------------------------------------------------------------------------:|
+|                        _Analyze and manage profile_                         |
+
+From the manage profile page you can edit the analysis results and add/remove information as you prefer.
+
+#### Screener settings
+
+In addition to your professional profile, you can set a list of rules to better calculate your match, for example:
+* I don't want to work for companies that produce weapons
+* I want to work only full remote
+* I'd like to work for gaming companies
+* I'd like to work in the renewable energy field
+
+You can set all these rules in the "screener settings" (Open screener settings button).
+
+### The match analysis
+
+Once your professional profile is complete (required) and your rules are set (not required) you can run the match analysis!
+
+| ![screening-panel-matchres-1.png](img/screening-panel-matchres-1.png) |
+|:---------------------------------------------------------------------:|
+|                 _Decent match but red flag detected_                  |
+
+| ![screening-panel-matchres-2.png](img/screening-panel-matchres-2.png) |
+|:---------------------------------------------------------------------:|
+|                   _Bad match and red flag detected_                   |
+
+At the moment you need to run the match analysis for each job offer that you would like to score.\
+You need to run it only once, if you navigate away and then return to the job offer, the calculated scores will appear.
 
 ## Known problems
 
