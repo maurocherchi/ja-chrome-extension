@@ -8,6 +8,8 @@
   * [Download results](#download-results-csv)
   * [Organize your saved offers into projects](#configure-the-current-project)
   * [Analyze the job market](#the-market-analysis)
+  * [Set up your professional profile (automated)](#analyze-profile)
+  * [See how well your profile matches a job](#the-match-analysis)
 * [Known problems](#known-problems)
 
 
@@ -344,9 +346,12 @@ There are 2 ways of doing it:
 * The automatic one: run the "Analyze profile" operation (your profile data is collected from LinkedIn, sent to OpenAI, analyzed, and then saved on your Browser storage)
 * Manually: open the "Manage profile" page and add/change/remove information regarding your professional profile
 
-**IMPORTANT NOTE**: Your data is stored only in your browser, we do not store any personal information. 
-The data extracted from your LinkedIn profile is sent to OpenAI LLM APIs only when you run the "analyze profile" or the "match analysis" operation.\
-**If you don't want your data to be sent to OpenAI, do not use the screening panel operations.**
+**IMPORTANT NOTE**: Your data is stored **only in your browser**, we do not store any personal information. 
+The data extracted from your LinkedIn profile is sent to OpenAI APIs only when you run the "analyze profile" or the "match analysis" operation.\
+**If you don't want your data to be sent to OpenAI, do not use the screening panel operations.**\
+At the time of writing this document ["OpenAI does not use data submitted through the API to train or improve their models. 
+However, to monitor for abuse and misuse, OpenAI may retain API data for up to 30 days, 
+after which it is deleted unless otherwise required by law."](https://openai.com/enterprise-privacy/)
 
 #### Automatic profile analysis
 
